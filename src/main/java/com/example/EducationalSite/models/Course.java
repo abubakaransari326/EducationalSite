@@ -21,6 +21,6 @@ public class Course {
 
     @NonNull
     @Column(name = "max_students")
-    private String maxStudents;
+    private int maxStudents;
 
 }
